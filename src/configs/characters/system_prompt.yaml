@@ -1,0 +1,13 @@
+system_message_summary_new:
+  content: |
+    Please create a summary of the above conversation, especially the information about the user.
+  input_variables:
+    - name
+
+system_message_summary_extend: 
+  content: |
+    Here is the summary of the conversation so far: 
+      <summary>
+        {summary}
+      </summary>
+    Expand the summary using the information above, especially the details about the user.

@@ -1,0 +1,7 @@
+env
+.dvc
+.idea
+.vscode
+venv
+.git
+checkpoints/
